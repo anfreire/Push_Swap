@@ -15,7 +15,7 @@
 int	starter(t_stk *stk, int argc, char **argv)
 {
 	recieve_parameters(stk, argv);
-	if ((argc == 1) || ft_is_repeated(stk->matrix) || ft_is_int(stk->matrix) \
+	if ((argc == 0) || ft_is_repeated(stk->matrix) || ft_is_int(stk->matrix) \
 	|| is_digit(stk->matrix))
 		return (1);
 	create_stacks(stk);

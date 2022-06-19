@@ -50,7 +50,7 @@ void	sort_less(t_stk *stk)
 
 void	sort_3(t_stk *stk)
 {	
-	if (!(stk->a[2]))
+	if (stk->size_a == 2)
 	{
 		sort_less(stk);
 		return ;

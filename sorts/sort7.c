@@ -6,7 +6,7 @@
 /*   By: anfreire <anfreire@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/18 20:34:23 by anfreire          #+#    #+#             */
-/*   Updated: 2022/06/19 02:10:20 by anfreire         ###   ########.fr       */
+/*   Updated: 2022/06/19 02:48:46 by anfreire         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	check_f(t_stk *stk, int i)
 
 int	check_g(t_stk *stk, int i)
 {
-	((stk->buffer[i] == 5 && stk->buffer[i + 1] == 5 \
+	return ((stk->buffer[i] == 5 && stk->buffer[i + 1] == 5 \
 	&& stk->buffer[i + 2] == 6 && stk->buffer[i + 3] == 6) \
 		|| (stk->buffer[i] == 6 && stk->buffer[i + 1] == 6 \
 		&& stk->buffer[i + 2] == 5 && stk->buffer[i + 3] == 5));

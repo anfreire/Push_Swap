@@ -6,7 +6,7 @@
 /*   By: anfreire <anfreire@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/17 15:41:10 by anfreire          #+#    #+#             */
-/*   Updated: 2022/06/19 02:15:22 by anfreire         ###   ########.fr       */
+/*   Updated: 2022/06/19 02:47:23 by anfreire         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	main(int argc, char **argv)
 		return (0);
 	}
 	main_sort(&stk);
-	buffer_treatment(&stk, -1);
+	buffer_treatment_a(&stk);
 	printf_buffer(&stk);
 	free(stk.a);
 	free(stk.b);
